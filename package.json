@@ -1,0 +1,14 @@
+{
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+          "throwIfNamespace": false,
+          "runtime": "automatic",
+          "importSource": "atomico"
+        }
+      ]
+    ]
+  }
+}
